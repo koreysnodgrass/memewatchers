@@ -1,0 +1,162 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1em;
+
+}
+
+.block a{
+  text-decoration: none;
+  
+}
+
+.block a:hover{
+  color: #000;
+
+}
+
+.block.first /* The first block in the region */ {
+
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title 	
+*/ {
+	font-style: normal;
+	background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 0 5px 0;
+    text-transform: lowercase;
+	font-family: "Courier New", "DejaVu Sans Mono", monospace;
+
+}
+
+.block .content /* Block's content wrapper */ {
+	padding: 0 4px 0 4px;
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-block-1 /* First block created with "Add block" link */ {
+}
+
+#block-blog-recent /* "Recent blog posts" block */ {
+  border: 1px solid #000;
+}
+
+#block-book-navigation /* "Book navigation" block for the current book's table of contents */ {
+  border: 1px solid #000;
+}
+
+#block-comment-recent /* "Recent comments" block */ {
+  border: 1px solid #000;
+}
+#block-views-active-memes-block-1{
+  border: 1px solid #000;
+}
+
+#block-views-meme-list-block-1{
+  border: 1px solid #000;
+}
+
+#block-forum-active /* "Active forum topics" block */ {
+}
+
+#block-forum-new /* "New forum topics" block */ {
+}
+
+#block-locale-language /* Language switcher block */ {
+}
+
+#block-menu-menu-NAME /* Custom menu block  */ {
+}
+
+#block-menu-menu-NAME  a/* Custom menu block  */ {
+color: blue;
+}
+
+#block-node-recent /* "Recent content" block */ {
+  border: 1px solid #000;
+  padding: 0 0 4px;
+}
+
+#block-node-syndicate /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */ {
+}
+
+#block-poll-recent /* "Most recent poll" block */ {
+}
+
+#block-profile-author-information /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-form /* "Search form" block */ {
+  padding: 0 -4px
+  }
+
+#block-shortcut-shortcuts /* "Shortcuts" block */ {
+}
+
+#block-statistics-popular /* "Popular content" block */ {
+}
+
+#block-system-main-menu /* "Main menu" block */ {
+}
+
+#block-system-management /* "Management" block for Drupal management menu */ {
+}
+
+#block-system-navigation /* "Navigation" block for Drupal navigation menu */ {
+  border: 1px solid #000;
+  padding: 0 0 4px;
+}
+
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+  border: 1px solid #000;
+  padding: 0 0 4px;
+}
+
+#block-system-user-menu li /* The "Log in using OpenID" link. */ {
+  margin-left: -20px; /* LTR */ /* Un-do some of the padding on the ul list. */
+}
+#block-system-help /* "System help" block */ {
+}
+
+#block-system-main /* "Main page content" block */ {
+}
+
+#block-system-powered-by /* "Powered by Drupal" block */ {
+}
+
+#block-user-login /* "User login form" block */ {
+  border: 1px solid #000;
+  padding: 0 0 4px;
+}
+
+#block-user-new /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-online /* "Who's online" block for a list of the online users */ {
+}
+
+#block-follow-site/* "Who's online" block for a list of the online users */ {
+  border: 1px solid #000;
+  padding: 0 0 4px;
+}

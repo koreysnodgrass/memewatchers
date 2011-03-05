@@ -1,0 +1,66 @@
+
+a.follow-link {
+	height: 42px;
+	display: inline;
+	line-height: 2.5em;
+	padding-left: 42px;
+	padding-bottom: 42px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+a.follow-link-facebook {
+	background-image: url(icons/large/icon-facebook.png);
+}
+
+a.follow-link-myspace {
+	background-image: url(icons/large/icon-myspace.png);
+}
+
+a.follow-link-virb {
+	background-image: url(icons/large/icon-virb.png);
+}
+
+a.follow-link-bliptv {
+	background-image: url(icons/large/icon-bliptv.png);
+}
+
+a.follow-link-lastfm {
+	background-image: url(icons/large/icon-lastfm.png);
+}
+
+a.follow-link-youtube {
+	background-image: url(icons/large/icon-youtube.png);
+}
+
+a.follow-link-twitter {
+	background-image: url(icons/large/icon-twitter.png);
+}
+
+a.follow-link-picasa {
+	background-image: url(icons/large/icon-picasa.png);
+}
+
+a.follow-link-flickr {
+	background-image: url(icons/large/icon-flickr.png);
+}
+
+a.follow-link-vimeo {
+	background-image: url(icons/large/icon-vimeo.png);
+}
+
+a.follow-link-linkedin {
+	background-image: url(icons/large/icon-linkedin.png);
+}
+
+a.follow-link-delicious {
+	background-image: url(icons/large/icon-delicious.png);
+}
+
+a.follow-link-tumblr {
+	background-image: url(icons/large/icon-tumblr.png);
+}
+
+a.follow-link-this-site {
+	background-image: url(icons/large/icon-feed.png);
+}
