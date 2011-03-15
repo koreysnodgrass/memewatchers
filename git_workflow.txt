@@ -1,0 +1,75 @@
+<change to correct directory>
+Ettan@ETTAN-PC ~
+$ cd memewatchers
+
+<create a development branch>
+Ettan@ETTAN-PC ~/memewatchers (master)
+$ git branch dev1
+
+<view branches>
+Ettan@ETTAN-PC ~/memewatchers (master)
+$ git branch
+  dev1
+* master
+
+<change branches>
+Ettan@ETTAN-PC ~/memewatchers (master)
+$ git checkout dev1
+Switched to branch 'dev1'
+
+<after work check changes on new branch>
+Ettan@ETTAN-PC ~/memewatchers (dev1)
+$ git status
+# On branch dev1
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#       modified:   sites/all/themes/meme_subtheme/css/blocks.css
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+<commit and add all changes to branch> 
+Ettan@ETTAN-PC ~/memewatchers (dev1)
+$ git commit -a -m 'css comment changes'
+[dev1 6819ce2] css comment changes
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+<push changes to online hub> 
+Ettan@ETTAN-PC ~/memewatchers (dev1)
+$ git push origin master
+Enter passphrase for key '/c/Users/Ettan/.ssh/id_rsa':
+Everything up-to-date
+
+<change to master branch>
+Ettan@ETTAN-PC ~/memewatchers (dev1)
+$ git checkout master
+Switched to branch 'master'
+
+<merge dev and master>
+Ettan@ETTAN-PC ~/memewatchers (master)
+$ git merge dev1
+Updating dee8ae8..6819ce2
+Fast-forward
+ sites/all/themes/meme_subtheme/css/blocks.css |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+<delete dev branch>
+Ettan@ETTAN-PC ~/memewatchers (master)
+$ git branch dev1 -d
+Deleted branch dev1 (was 6819ce2).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
