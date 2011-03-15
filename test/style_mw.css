@@ -1,0 +1,93 @@
+/*********************************************************************************************
+
+Theme Name: snodgrass - 3 columns
+Description: Designed by Korey Snodgrass
+Version: 1.0
+
+**********************************************************************************************
+
+Designed and Built by Korey Snodgrass 
+
+CSS, XHTML and Design Files are all Copyright 2011
+
+**********************************************************************************************
+
+0.  Basic Setup  -------------------------  All Theme Files
+
+**********************************************************************************************/
+/********************************************************************************************* 
+
+0.  Basic Setup  -------------------------  All Theme Files
+
+*********************************************************************************************/
+html {
+	background: url("../images/network.png");
+	background-position: center top;
+	background-repeat: repeat-x;
+	font-family:     "Courier New", Courier, monospace;
+
+	}
+	 
+b { font-weight: bold; }
+h1 { 
+	color: #000000;
+	font-size: 65pt
+	}
+	
+a:link, a:visited {
+	color: #555555;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #777777;
+	}
+
+body {
+
+	width: 80%;
+	margin: auto;
+	
+	}
+
+#header,
+#footer {
+	overflow: hidden;
+	zoom: 1;
+	background: #ffffff;
+	margin-left: -200px;
+	margin-right: -200px;
+	position: relative;
+	text-align: center;
+}
+
+#footer {
+  clear: both;
+}
+	
+#sidebar {
+	float: left;
+	width: 200px;
+	margin-left:-200px;
+	position: relative;
+
+	}
+	
+#main {
+	text-align: center;
+	}
+	
+#wrapper {
+  zoom: 1;
+  border-left: 200px solid #ffffff;
+  background-color: #ffffff;
+  border-right: 200px solid #ffffff;
+
+}
+
+#aside {
+  float: right;
+  width: 200px;
+  margin-right: -200px;
+  position: relative;
+}

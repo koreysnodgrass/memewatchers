@@ -36,10 +36,25 @@ ul.nice-menu a {
   background-color: #B06477;
 }
 
-ul.nice-menu a:hover, ul.nice-menu a:focus {
+ul#nice-menu-2 a {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+  color: #B06477;
+  text-decoration: none;
+  background-color: #fff;
+  border-right: 1px solid;
+  border-left: 1px solid;
+}
+
+ul.nice-menu a:hover, ul.nice-menu a:focus, ul.nice-menu li a.active {
   background-color: #000;  
    color: #fff;
 
+}
+#nice-menu-2 ul a:hover, ul#nice-menu-2 ul a:focus,  { 
+   color: #000;
 }
 
 ul.nice-menu ul {

@@ -153,7 +153,7 @@
   <?php if ($page['footer'] || $secondary_menu): ?>
     <div id="footer"><div class="section">
 
-      <?php print theme('links__system_secondary_menu', array(
+      <!-- ?php print theme('links__system_secondary_menu', array(
         'links' => $secondary_menu,
         'attributes' => array(
           'id' => 'secondary-menu',
@@ -164,7 +164,7 @@
           'level' => 'h2',
           'class' => array('element-invisible'),
         ),
-      )); ?>
+      )); ? -->
 
       <?php print render($page['footer']); ?>
 
