@@ -80,7 +80,7 @@
   <?php endif; ?>
 
   <div class="submitted">
-    <?php print $permalink; ?>
+    <?php // print $permalink; ?>
     <?php print $submitted; ?>
   </div>
 

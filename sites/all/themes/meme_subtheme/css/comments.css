@@ -6,6 +6,8 @@
 
 #comments /* Wrapper for the list of comments and its title */ {
   margin: 1em 0;
+   background: none repeat scroll 0 0 #EFEFEF;
+   padding: 15px;
 }
 
 #comments h2.title /* Heading for the list of comments */ {
@@ -15,6 +17,13 @@
 }
 
 .comment /* Wrapper for a single comment */ {
+
+ padding: 10px 0 0 10px !important;
+ position: relative;
+ margin: 0 0 10px;
+ background-color: #ffffff;
+ overflow: hidden;
+ border: solid 1px;
 }
 
 .comment-preview /* Preview of the comment before submitting new or updated comment */ {
@@ -52,6 +61,7 @@
 }
 
 .comment h3.comment-title /* Comment title */ {
+margin: 0;
 }
 
 .new /* "New" marker for comments that are new for the current user */ {
@@ -59,9 +69,12 @@
 }
 
 .comment .user-picture /* The picture of the comment author */ {
+padding: 1px;
 }
 
 .comment .submitted /* The "posted by" information */ {
+  color: #666666;
+    font-size: 12px;
 }
 
 .comment .content /* Comment's content wrapper */ {
@@ -71,10 +84,10 @@
 }
 
 .comment ul.links /* Comment links. See also the ul.links declaration in the pages.css. */ {
-    float: left;
+    float: right;
     margin-left: 0;
     margin-top: 0;
-    width: 200px;
+    width: auto;
 	border: none;
 	display: inline;
 }
